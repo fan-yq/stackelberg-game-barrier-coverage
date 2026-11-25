@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <!-- <PackageReference Include="alglib.net" Version="3.19.0" /> -->
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="MathNet.Spatial" />
+    <PackageReference Include="Microsoft.Extensions.Logging" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>BuoyancyAircraft.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+</Project>

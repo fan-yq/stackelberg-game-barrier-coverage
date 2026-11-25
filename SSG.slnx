@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Airship/Airship.csproj" />
+  <Project Path="BuoyancyAircraft.Samples/BuoyancyAircraft.Samples.csproj" />
+    <File Path="Directory.Packages.props" />
+</Solution>
