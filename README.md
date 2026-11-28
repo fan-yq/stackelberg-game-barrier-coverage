@@ -106,7 +106,8 @@ The executable project is `BuoyancyAircraft.Samples`; its root command is
 `samples`, and every experiment is one of its subcommands. Run the commands from
 the repository root so that the `.env` file is discovered. The exact command
 lines used for the figures and tables of the paper are collected in
-[`docs/Commands.md`](docs/Commands.md).
+[`docs/Commands.md`](docs/Commands.md) (Chinese) and
+[`docs/Commands.en.md`](docs/Commands.en.md) (English).
 
 Solve a scenario and write the result to `<OutputPath>/SSG/`:
 
